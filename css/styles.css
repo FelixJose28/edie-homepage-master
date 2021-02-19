@@ -1,0 +1,55 @@
+.container{
+    background-color: aqua;
+    padding-left: 21px;
+    padding-right: 21px;
+    
+}
+
+/* HEADER */
+.span-right{
+    margin-left: 480px;
+}
+.span-right>span{
+    margin-left: 73px;
+    font-size: 17px;
+}
+.name-header{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+
+
+/* text_before_principal_image */
+
+.text_before_principal_image{
+    margin-top: 6%;
+    width: 28%;
+    margin-left: 20%;
+}
+
+.principal_image{
+    width: 1220px;
+    height: 300px;
+}
+
+ /* TEXT CONTAINER AFTER PRINCIPAL IMAGE  */
+.text_after_principal_image{
+    width: 23%;
+    margin-left: 16%;    
+}
+.tafterp{
+    margin-top: 13%;
+}
+.contact_us_tafp{
+    margin-top: 16%;
+}
+
+/* CARDS OPTIONS */
+
+
+.title_cards_container{
+    margin-top: 13%;
+    width: 20%;
+    margin-left: 10%;
+}
