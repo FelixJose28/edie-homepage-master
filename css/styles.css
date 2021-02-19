@@ -1,8 +1,5 @@
 .container{
-    background-color: aqua;
-    padding-left: 21px;
-    padding-right: 21px;
-    
+
 }
 
 /* HEADER */
@@ -10,11 +7,12 @@
     margin-left: 480px;
 }
 .span-right>span{
-    margin-left: 73px;
+    margin-left: 72px;
     font-size: 17px;
 }
 .name-header{
     font-weight: bold;
+    margin-left: 22px;
     font-size: 26px;
 }
 
@@ -80,12 +78,65 @@
 .first_card{
     margin-top: 20%;
 }
+.see_more{
+    margin-left: 68%;
+    margin-top: 16%;
+}
 
 /* WORKGROUP */
 .team_container{
     margin-top: 20%;
+    margin-left: 10%;
+}
+.team_text{
+    width: 50%;
 }
 .img_team{
+    width: 260px;
+    height: 260px;
+}
+.img_team_litle{
     width: 220px;
     height: 220px;
+}
+.first_image{
+    margin-top: 25%;
+    margin-right: 5%;
+}
+.img_work_container{
+    margin-right: 150px;
+}
+
+/* BEFORE FOOTER SECTION */
+.before_footer{
+    margin-left: 10%;
+    width: 60%;
+}
+.rowcard{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+.img_mini{
+    width: 70px;
+    height: 70px;
+}
+/* FOOTER SECTION */
+footer{
+    margin-top: 8%;
+}
+footer>*{  
+    color: #fff
+}
+.row_footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 85%;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 7%;
+}
+.col1_footer>p{
+    padding-top: 4%;
+    color: #fff;
 }

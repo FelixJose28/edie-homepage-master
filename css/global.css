@@ -78,6 +78,9 @@ h6 {
 .bg-info {
     background-color: var(--info-color);
 }
+.bg-dark{
+    background-color: var(--color-bg-footer);
+}
 
 
 /* text-color */
