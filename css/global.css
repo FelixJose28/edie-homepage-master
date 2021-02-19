@@ -49,6 +49,12 @@ h6 {
     cursor: pointer;
 }
 
+.card{
+    width: 68%;
+    border: 1px solid #000000;
+    padding: 14%;
+}
+
 
 
 /* background */
