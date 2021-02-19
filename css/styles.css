@@ -59,3 +59,33 @@
     width: 88%;
     margin: auto;
 }
+
+/* CARDS IMAGES  */
+.title_cards_image_container{
+    margin-top: 20%;
+
+}
+.all_cards_image{
+    margin-left: 10%;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.card_image>img{
+    width: 85%;
+
+    height: 400px;
+}
+.first_card{
+    margin-top: 20%;
+}
+
+/* WORKGROUP */
+.team_container{
+    margin-top: 20%;
+}
+.img_team{
+    width: 220px;
+    height: 220px;
+}
