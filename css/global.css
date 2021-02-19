@@ -1,0 +1,467 @@
+@import url(dimenciones.css);
+:root {
+    --color-primary: #2D9CDB;
+    --color-bg-footer: #100E1D;
+    --color-bg-input: #F2F2F2;
+    --color-icon-orange: #EB5757;
+    --color-icon-green: #27AE60;
+    --color-btn-gray: #E0E0E0;
+    --color-btn-text-gray: #828282;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body,
+html {
+    background-color: #fafafa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    color: #3e3e3e;
+}
+
+
+/* estilos para los bottones. */
+
+.btn {
+    text-align: center;
+    width: 140px;
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+
+
+/* background */
+
+.bg-danger {
+    background-color: var(--danger-color);
+}
+
+.bg-success {
+    background-color: var(--success-color);
+}
+
+.bg-primary {
+    background-color: var(--color-primario);
+}
+
+.bg-warning {
+    background-color: var(--warning-color);
+}
+
+.bg-info {
+    background-color: var(--info-color);
+}
+
+
+/* text-color */
+
+.text-blue {
+    color: var(--color-primary);
+}
+
+.text-red {
+    color: var(--color-icon-orange);
+}
+
+.text-dark-gray {
+    color: var(--color-btn-text-gray);
+}
+
+
+
+
+/* Maring */
+
+.m-auto {
+    margin: auto;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.m-small {
+    margin: var(--small-mp);
+}
+
+.m-mid {
+    margin: var(--mid-mp);
+}
+
+.m-large {
+    margin: var(--large-mp);
+}
+
+.mx-small {
+    margin-left: var(--small-mp);
+    margin-right: var(--small-mp);
+}
+
+.mx-mid {
+    margin-left: var(--mid-mp);
+    margin-right: var(--mid-mp);
+}
+
+.mx-large {
+    margin-left: var(--large-mp);
+    margin-right: var(--large-mp);
+}
+
+.my-small {
+    margin-top: var(--small-mp);
+    margin-bottom: var(--small-mp);
+}
+
+.my-mid {
+    margin-top: var(--mid-mp);
+    margin-bottom: var(--mid-mp);
+}
+
+.my-large {
+    margin-top: var(--large-mp);
+    margin-bottom: var(--large-mp);
+}
+
+.mx-left-small {
+    margin-left: var(--small-mp);
+}
+
+.mx-left-mid {
+    margin-left: var(--mid-mp);
+}
+
+.mx-left-large {
+    margin-left: var(--large-mp);
+}
+
+.my-top-small {
+    margin-top: var(--small-mp);
+}
+
+.my-top-mid {
+    margin-top: var(--mid-mp);
+}
+
+.my-top-large {
+    margin-top: var(--large-mp);
+}
+
+.mx-right-small {
+    margin-right: var(--small-mp);
+}
+
+.mx-right-mid {
+    margin-right: var(--mid-mp);
+}
+
+.mx-right-large {
+    margin-right: var(--large-mp);
+}
+
+.my-bottom-small {
+    margin-bottom: var(--small-mp);
+}
+
+.my-bottom-mid {
+    margin-bottom: var(--mid-mp);
+}
+
+.my-bottom-large {
+    margin-bottom: var(--large-mp);
+}
+
+
+/* Padding */
+
+.p-auto {
+    padding: auto;
+}
+
+.px-auto {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.py-auto {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.p-small {
+    padding: var(--small-mp);
+}
+
+.p-mid {
+    padding: var(--mid-mp);
+}
+
+.p-large {
+    padding: var(--large-mp);
+}
+
+.px-small {
+    padding-left: var(--small-mp);
+    padding-right: var(--small-mp);
+}
+
+.px-mid {
+    padding-left: var(--mid-mp);
+    padding-right: var(--mid-mp);
+}
+
+.px-large {
+    padding-left: var(--large-mp);
+    padding-right: var(--large-mp);
+}
+
+.py-small {
+    padding-top: var(--small-mp);
+    padding-bottom: var(--small-mp);
+}
+
+.py-mid {
+    padding-top: var(--mid-mp);
+    padding-bottom: var(--mid-mp);
+}
+
+.py-large {
+    padding-top: var(--large-mp);
+    padding-bottom: var(--large-mp);
+}
+
+.px-left-small {
+    padding-left: var(--small-mp);
+}
+
+.px-left-mid {
+    padding-left: var(--mid-mp);
+}
+
+.px-left-large {
+    padding-left: var(--large-mp);
+}
+
+.py-top-small {
+    padding-top: var(--small-mp);
+}
+
+.py-top-mid {
+    padding-top: var(--mid-mp);
+}
+
+.py-top-large {
+    padding-top: var(--large-mp);
+}
+
+.px-right-small {
+    padding-right: var(--small-mp);
+}
+
+.px-right-mid {
+    padding-right: var(--mid-mp);
+}
+
+.px-right-large {
+    padding-right: var(--large-mp);
+}
+
+.py-bottom-small {
+    padding-bottom: var(--small-mp);
+}
+
+.py-bottom-mid {
+    padding-bottom: var(--mid-mp);
+}
+
+.py-bottom-large {
+    padding-bottom: var(--large-mp);
+}
+
+
+/* border */
+
+.border-none {
+    border: none;
+}
+
+.border-rounded {
+    border-radius: var(--small-rounded);
+}
+
+.border-rounded-small {
+    border-radius: var(--small-rounded);
+}
+
+.border-rounded-mid {
+    border-radius: var(--mid-rounded);
+}
+
+.border-rounded-large {
+    border-radius: var(--large-rounded);
+}
+
+.border-circular {
+    border-radius: 50%;
+}
+
+
+/* alineacion de texto */
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/* Inputs y formularios  */
+
+input {
+    min-width: 200px;
+    padding: var(--small-mp);
+}
+
+
+
+
+/* Clases para formulario  */
+
+
+
+.form-control {
+    min-width: 300px;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid var(--color-black);
+    border-radius: 4px;
+    margin: 3px;
+}
+
+.form-control::placeholder {
+    font-weight: 600;
+}
+
+
+/* Display */
+
+.d-block {
+    display: block;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+
+/* width elemnnts */
+
+.w-25 {
+    width: 25%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+
+/* float */
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+
+
+
+
+/* enlaces  */
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 4px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+/* Position clases */
+
+.position-relative {
+    position: relative;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.position-bottom {
+    position: absolute;
+    bottom: 5%;
+}
+
+.position-top {
+    position: absolute;
+    top: 0%;
+}
