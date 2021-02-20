@@ -6,6 +6,7 @@
     --color-icon-orange: #EB5757;
     --color-icon-green: #27AE60;
     --color-btn-gray: #E0E0E0;
+    --color-bg-input-gray: #F2F2F2;
     --color-btn-text-gray: #828282;
 }
 
@@ -35,15 +36,7 @@ h6 {
 
 /* estilos para los bottones. */
 
-.btn {
-    text-align: center;
-    width: 140px;
-    padding: 10px 18px;
-    border-radius: 5px;
-    border: none;
-    font-size: 14px;
-    text-decoration: none;
-}
+
 
 .btn:hover {
     cursor: pointer;
@@ -80,6 +73,9 @@ h6 {
 }
 .bg-dark{
     background-color: var(--color-bg-footer);
+}
+.bg-gray{
+    background-color: var(--color-bg-input-gray);
 }
 
 

@@ -1,5 +1,15 @@
+:root {
+    --color-primary: #2D9CDB;
+    --color-bg-footer: #100E1D;
+    --color-bg-input: #F2F2F2;
+    --color-icon-orange: #EB5757;
+    --color-icon-green: #27AE60;
+    --color-btn-gray: #E0E0E0;
+    --color-bg-input-gray: #F2F2F2;
+    --color-btn-text-gray: #828282;
+}
 .container{
-
+    
 }
 
 /* HEADER */
@@ -37,10 +47,35 @@
     margin-left: 16%;    
 }
 .tafterp{
-    margin-top: 13%;
+    margin-top: 10%;
 }
 .contact_us_tafp{
-    margin-top: 16%;
+    margin-top: 5%;
+    margin-left: 16%;   
+}
+.input_send_email{
+    background-color: var(--color-bg-input-gray);
+    color: #C7C7C7;
+    position: absolute;
+    border: none;
+    padding: 15px;
+    width: 280px;
+
+}
+.btn_send_email {
+    margin-top: 4px;
+    position: relative;
+    margin-left: 200px;
+    text-align: center;
+    width: 100px;
+    padding: 10px 18px;
+    background-color: var(--color-primary) ;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+
 }
 
 /* CARDS OPTIONS */
