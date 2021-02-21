@@ -42,16 +42,16 @@ h6 {
 
 /* HEADER */
 .span-right{
-    margin-left: 480px;
+    margin-left: 38%;
     display: inline;
 }
 .span-right>span{
-    margin-left: 72px;
+    margin-left: 5.7%;
     font-size: 17px;
 }
 .name-header{
     font-weight: bold;
-    margin-left: 22px;
+    margin-left: 2%;
     font-size: 26px;
 }
 .header-container{
@@ -76,8 +76,8 @@ h6 {
 }
 
 .principal_image{
-    width: 1220px;
-    height: 300px;
+    width: 96%;
+    height: 100%;
     border-radius: var(--large-rounded);
     margin-left: auto;
     margin-right: auto;
@@ -113,13 +113,13 @@ h6 {
 
 }
 .btn_send_email {
-    margin-top: 14px;
+    margin-top: 17px;
 
     position: relative;
     margin-left: 200px;
     text-align: center;
     width: 100px;
-    padding: 10px 18px;
+    padding: 8px 2px;
     background-color: var(--color-primary) ;
     border-radius: 5px;
     border: none;
@@ -140,11 +140,27 @@ h6 {
 .card_selected{
     box-shadow: 1px 1px 7px 0.5px #888888;
 }
+.btn_unselected{
+    margin-top: var(--large-mp);
+    color: var(--color-btn-text-gray);
+    padding: 3.5% 3.5%;
+    border-radius: 10px;
+    background-color: var(--color-bg-input);
+    border: none;
+}
+.btn_selected{
+    margin-top: var(--large-mp);
+    color: #fff;
+    padding: 3.5% 3.5%;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    border: none;
+}
 
 .title_cards_container{
     margin-top: 13%;
     width: 20%;
-margin-left: 10%;
+    margin-left: 10%;
 }
 .cards_container_father{
     margin-top: 5%;
@@ -183,24 +199,12 @@ margin-left: 10%;
     margin-left: 68%;
     margin-top: 16%;
 }
-.btn_unselected{
-    margin-top: var(--large-mp);
-    color: var(--color-btn-text-gray);
-    padding: 8px 8px;
-    border-radius: 10px;
-    background-color: var(--color-bg-input);
-    border: none;
-}
-.btn_selected{
-    margin-top: var(--large-mp);
-    color: #fff;
-    padding: 8px 8px;
-    border-radius: 10px;
-    background-color: var(--color-primary);
-    border: none;
+.text_orange{
+    color: var(--color-icon-orange);
 }
 .mt-paragraghs-card{
-    margin-top: 24px;
+    /* margin-top: 24px; */
+    margin-top: 10%;
 }
 .card_image_rounded{
     border-radius: var(--large-rounded);
@@ -212,18 +216,31 @@ margin-left: 10%;
     margin-left: 10%;
 }
 .team_text{
-    width: 50%;
+    width: 40%;
 }
 .img_team{
     border-radius: var(--large-rounded);
-    width: 260px;
-    height: 260px;
+    /* width: 260px; */
+    width: 100%;
+    /* height: 230px; */
+    height: 60%;
 }
 .img_team_litle{
+    
     border-radius: var(--large-rounded);
-    width: 220px;
-    height: 220px;
+    /* width: 220px; */
+    width: 80%;
+    /* height: 190px; */
+    height: 42%;
 }
+.p_top_margin{
+    margin-top: 4%;
+}
+.img_work_container{
+    /* margin-right: 150px; */
+    margin-right: 25%;
+}
+
 .img_team_top{
     margin-top: var(--large-mp);
 }
@@ -231,12 +248,11 @@ margin-left: 10%;
     margin-top: 25%;
     margin-right: 5%;
 }
-.img_work_container{
-    margin-right: 150px;
-}
+
 
 /* BEFORE FOOTER SECTION */
 .before_footer{
+    margin-top: 10%;
     margin-left: 10%;
     width: 60%;
 }
@@ -279,4 +295,9 @@ footer>*{
 
 .input_send_footer{
     margin-top: var(--mid-mp);
+}
+@media screen and (max-width: 375px){
+    body{
+        background-color: rgb(179, 151, 151);
+    }
 }
