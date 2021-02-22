@@ -5,7 +5,6 @@
     --color-icon-orange: #EB5757;
     --color-btn-text-gray: #828282;
 
-
     --small-mp: 5px;
     --mid-mp: 10px;
     --large-mp: 20px;
@@ -298,14 +297,6 @@ footer>*{
     margin-top: var(--mid-mp);
 }
 @media screen and (max-width: 365px){
-
-
-
-
-
-body{
-    background-color: #2D9CDB;
-}
 
     /* text_before_principal_image */
 
